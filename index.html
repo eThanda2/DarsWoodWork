@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom Woodworking and Handcrafted Furniture by The Dara Woodshop in The Woodlands, TX.">
+    <title>The Dara Woodshop | Handcrafted Perfection</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <img src="Dars Logo.png" alt="The Dara Woodshop Logo" style="height: 90px; width: auto; object-fit: contain; max-width: 250px;">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+                <li><a href="#products" data-i18n="nav_products">Products</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-switcher">
+                    <button id="lang-en" class="lang-opt active">English</button>
+                    <span class="lang-div">|</span>
+                    <button id="lang-ar" class="lang-opt">العربية</button>
+                </li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero wood-texture">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h1 data-i18n="hero_title">The Dara Woodshop</h1>
+            <p data-i18n="hero_subtitle">Custom Gaming TV Centers, Desks, and Woodworking by a passionate female entrepreneur based in The Woodlands, Texas.</p>
+            <a href="#gallery" class="cta-button btn-hover" data-i18n="hero_cta">View Our Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding wood-texture-subtle">
+        <div class="container fade-in-scroll">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 data-i18n="about_title">Meet Dara</h2>
+                    <p data-i18n="about_p1">Welcome to The Dara Woodshop, proudly based in The Woodlands, Texas. As a female entrepreneur in the woodworking industry, I specialize in building custom gaming TV centers, transforming old tables into stunning modern desks, and crafting bespoke furniture using pallet wood and plywood.</p>
+                    <p data-i18n="about_p2">From the initial design to the final finishing touches, I pour my passion into creating highly functional, beautifully crafted pieces that elevate your space.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="https://img.youtube.com/vi/TgXSkhf7l_M/maxresdefault.jpg" onerror="this.src='https://img.youtube.com/vi/TgXSkhf7l_M/hqdefault.jpg'" alt="Dar in her workshop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section-padding">
+        <div class="container fade-in-scroll">
+            <h2 class="text-center" data-i18n="gallery_title">Recent Builds on YouTube</h2>
+            <div class="gallery-grid">
+                <!-- Playable Video Items -->
+                <div class="gallery-item video-trigger" data-video-id="O3qW5e2q12U">
+                    <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&q=80&w=600" alt="Custom Desk">
+                    <div class="gallery-overlay">
+                        <div class="play-icon">▶</div>
+                        <h3 data-i18n="gal_desk_title">Custom Desk</h3>
+                        <p data-i18n="gal_desk_desc">Solid Wood Build</p>
+                    </div>
+                </div>
+                <div class="gallery-item video-trigger" data-video-id="TgXSkhf7l_M">
+                    <img src="https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?auto=format&fit=crop&q=80&w=600" alt="Wooden TV Center">
+                    <div class="gallery-overlay">
+                        <div class="play-icon">▶</div>
+                        <h3 data-i18n="gal_tv_title">Game TV Center</h3>
+                        <p data-i18n="gal_tv_desc">Custom Wood Setup</p>
+                    </div>
+                </div>
+                <!-- Non-video items -->
+                <div class="gallery-item">
+                    <img src="images/slatted_wooden_bench.jpg" alt="Wooden Bench">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gal_cab_title">Oak Wooden Bench</h3>
+                        <p data-i18n="gal_cab_desc">Solid Oak</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=600" alt="Coffee Table">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="gal_cof_title">Coffee Table</h3>
+                        <p data-i18n="gal_cof_desc">Maple & Resin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section-padding wood-texture-subtle">
+        <div class="container fade-in-scroll">
+            <h2 class="text-center" data-i18n="products_title">Featured Products</h2>
+            <p class="text-center subtitle" data-i18n="products_subtitle" style="margin-bottom: 2rem;">Handcrafted pieces available for order.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/farmhouse_table.jpg" alt="Farmhouse Table">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="prod_chair">Classic Farmhouse Table</h3>
+                        <p data-i18n="prod_avail">Available on Order</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/wooden_chair.jpg" alt="Wooden Chair">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="prod_table">Solid Wood Lounge Chair</h3>
+                        <p data-i18n="prod_custom">Custom Sizing</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/wooden_bookshelf.jpg" alt="Bookshelf">
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="prod_shelf">Geometric Bookshelf</h3>
+                        <p data-i18n="prod_finish">Walnut Finish</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container fade-in-scroll">
+            <div class="contact-card">
+                <h2 class="text-center" data-i18n="contact_title">Get in Touch</h2>
+                <p class="text-center subtitle" data-i18n="contact_subtitle">Let's discuss your next custom project.</p>
+                
+                <div class="contact-layout">
+                    <div class="contact-form-side">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <select id="project-type" required class="form-select">
+                                    <option value="" disabled selected data-i18n="form_type">Project Type...</option>
+                                    <option value="desk" data-i18n="form_type_desk">Custom Desk</option>
+                                    <option value="tv" data-i18n="form_type_tv">Game TV Center</option>
+                                    <option value="cabinet" data-i18n="form_type_cab">Cabinet / Storage</option>
+                                    <option value="other" data-i18n="form_type_other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select id="budget" required class="form-select">
+                                    <option value="" disabled selected data-i18n="form_budget">Estimated Budget...</option>
+                                    <option value="under500">Under $500</option>
+                                    <option value="500-1000">$500 - $1,000</option>
+                                    <option value="1000-2500">$1,000 - $2,500</option>
+                                    <option value="2500+">$2,500+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="name" required placeholder="Your Name" data-i18n-placeholder="form_name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" required placeholder="Your Email" data-i18n-placeholder="form_email">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" required placeholder="Tell us about your project... dimensions, style, etc." data-i18n-placeholder="form_msg"></textarea>
+                            </div>
+                            <button type="submit" class="submit-button btn-hover" data-i18n="form_btn">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info-side">
+                        <h3 data-i18n="top_follow" style="color: var(--clr-primary); margin-bottom: 25px; text-align: center;">Follow The Dara Woodshop:</h3>
+                        <div class="contact-socials">
+                            <a href="https://www.youtube.com/@TheDaraWoodshop" target="_blank" rel="noopener noreferrer">YouTube</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p data-i18n="footer_copy">&copy; 2026 The Dara Woodshop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-container">
+                <iframe id="youtubePlayer" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
