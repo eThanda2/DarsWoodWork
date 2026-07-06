@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.style.top = '100%';
                 navLinks.style.left = '0';
                 navLinks.style.width = '100%';
-                navLinks.style.background = 'rgba(250, 248, 245, 0.95)';
+                navLinks.style.background = 'rgba(21, 72, 36, 0.98)'; // Deep green to match navbar and contrast white text
                 navLinks.style.padding = '20px';
                 navLinks.style.textAlign = 'center';
             }
