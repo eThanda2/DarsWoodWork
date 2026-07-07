@@ -29,27 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fadeElements = document.querySelectorAll('.fade-in-scroll');
     fadeElements.forEach(el => observer.observe(el));
 
-    // 3. Simple Form Submission
-    const form = document.querySelector('.contact-form');
-    if(form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const btn = form.querySelector('.submit-button');
-            const originalText = btn.textContent;
-            
-            btn.textContent = document.documentElement.dir === 'rtl' ? 'تم الإرسال!' : 'Message Sent!';
-            btn.style.background = '#4CAF50';
-            btn.style.color = '#fff';
-            
-            form.reset();
-            
-            setTimeout(() => {
-                btn.textContent = originalText;
-                btn.style.background = '';
-                btn.style.color = '';
-            }, 3000);
-        });
-    }
+
 
     // 4. Mobile Menu Toggle
     const mobileBtn = document.querySelector('.mobile-menu-btn');
